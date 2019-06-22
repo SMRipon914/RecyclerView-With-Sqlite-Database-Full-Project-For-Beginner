@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(adapter);
     }
-
     public static void notifyAdapter() {
         adapter.notifyDataSetChanged();
     }
